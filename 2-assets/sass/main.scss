@@ -7,6 +7,11 @@
 @import url('font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900');
 
+/*
+	Escape Velocity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
 // Breakpoints.
 
@@ -18,6 +23,7 @@
 	));
 
 // Reset.
+// Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain)
 
 	html, body, div, span, applet, object,
 	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -453,7 +459,7 @@
 		}
 
 		&.style1 {
-			background: #e97770 url('2-images/overlay.png');
+			background: #e97770 url('images/overlay.png');
 			color: #fff;
 
 			&:hover {
@@ -480,7 +486,7 @@
 		}
 
 		&.style3 {
-			background: #2f333b url('2-images/overlay.png');
+			background: #2f333b url('images/overlay.png');
 			color: #fff;
 
 			&:hover {
@@ -608,7 +614,7 @@
 			&:before {
 				display: block;
 				color: #fff;
-				background: #2f333b url('2-images/overlay.png');
+				background: #2f333b url('images/overlay.png');
 				border-radius: 2.5em;
 				text-align: center;
 				width: 2.5em;
@@ -726,7 +732,7 @@
 				left: -35px;
 				width: 35px;
 				height: 38px;
-				background: url('2-images/shadow.png');
+				background: url('images/shadow.png');
 			}
 
 			&:after {
@@ -737,17 +743,17 @@
 				right: -35px;
 				width: 35px;
 				height: 38px;
-				background: url('2-images/shadow.png');
+				background: url('images/shadow.png');
 			}
 		}
 
 		&.style1 {
-			background: #e97770 url('2-images/overlay.png');
+			background: #e97770 url('images/overlay.png');
 			color: #eee;
 			color: rgba(255, 255, 255, 0.75);
 
 			.title {
-				background: #e97770 url('2-images/overlay.png');
+				background: #e97770 url('images/overlay.png');
 				color: #fff;
 			}
 
@@ -766,10 +772,10 @@
 		}
 
 		&.style3 {
-			background: #f3f3f3 url('2-images/overlay.png');
+			background: #f3f3f3 url('images/overlay.png');
 
 			.title {
-				background: #f3f3f3 url('2-images/overlay.png');
+				background: #f3f3f3 url('images/overlay.png');
 				color: #484d55;
 			}
 
@@ -795,7 +801,7 @@
 		@include vendor('justify-content', 'center');
 		position: relative;
 		height: 24em;
-		background: url('../../2-images/banner.jpg') center center;
+		background: url('../../images/banner.jpg') center center;
 		background-size: cover;
 		padding: 0;
 
@@ -806,7 +812,7 @@
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background: url('2-images/overlay.png');
+			background: url('images/overlay.png');
 		}
 
 		.homepage & {
@@ -900,7 +906,7 @@
 	}
 
 	.dropotron {
-		background: #222835 url('2-images/overlay.png');
+		background: #222835 url('images/overlay.png');
 		background-color: rgba(44, 50, 63, 0.925);
 		padding: 1.25em 1em 1.25em 1em;
 		border-radius: 0.35em;
@@ -1020,7 +1026,7 @@
 /* Footer */
 
 	#footer {
-		background: #282b34 url('2-images/overlay.png');
+		background: #282b34 url('images/overlay.png');
 		color: #eee;
 		color: rgba(255, 255, 255, 0.5);
 		padding-bottom: 6em;
@@ -1074,7 +1080,7 @@
 		}
 
 		.title {
-			background: #282b34 url('2-images/overlay.png');
+			background: #282b34 url('images/overlay.png');
 			color: #eee;
 		}
 
@@ -1103,7 +1109,7 @@
 
 			h3 {
 				&:before {
-					background: #3d4249 url('2-images/overlay.png');
+					background: #3d4249 url('images/overlay.png');
 				}
 			}
 		}
@@ -1384,7 +1390,7 @@
 				top: 0;
 				width: _size(navPanel);
 				z-index: _misc(z-index-base) + 2;
-				background: #242730 url('2-images/overlay.png');
+				background: #242730 url('images/overlay.png');
 				box-shadow: inset -3px 0px 4px 0px rgba(0, 0, 0, 0.1);
 
 				.link {
